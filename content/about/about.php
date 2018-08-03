@@ -74,5 +74,8 @@ include 'addAtUp.php';
 <h2 id="lpAboutEnd1">
     没有人会发来贺电的！
 </h2>
+<?php
+include 'paly.php';
+?>
 </body>
 </html>

@@ -13,5 +13,12 @@ include 'addAtUp.php'
         Java首页
     </center>
 </h1>
+
+
+
+
+<?php
+include 'paly.php';
+?>
 </body>
 </html>
