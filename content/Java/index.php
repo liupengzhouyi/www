@@ -5,8 +5,13 @@
     <title>首页</title>
 </head>
 <body>
-
-<a href="test/test.php">连接</a>
-<a href="test/demo01.php">Demo01</a>
+<?php
+include 'addAtUp.php'
+?>
+<h1>
+    <center>
+        Java首页
+    </center>
+</h1>
 </body>
 </html>

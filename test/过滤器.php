@@ -11,4 +11,6 @@ if (!filter_var($int, FILTER_VALIDATE_INT)) {
 } else {
     echo "这是一个合格的整数";
 }
+
 ?>
+
