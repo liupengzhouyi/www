@@ -1,0 +1,18 @@
+CREATE DATABASE web_database_for_php;
+
+
+CREATE TABLE IF NOT EXISTS `lp_user_table`(
+   `lp_user_id` INT UNSIGNED AUTO_INCREMENT,
+   `lp_user_name` VARCHAR(100) NOT NULL,
+   `lp_user_password` VARCHAR(50) NOT NULL,
+   `lp_user_email` VARCHAR(40) NOT NULL,
+   `lp_submission_datetime` DATETIME,
+   PRIMARY KEY ( `lp_user_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+INSERT INTO lp_user_table (lp_user_id, lp_user_name, lp_user_password, lp_user_email, lp_submission_datetime) VALUES (1, '刘鹏', 'lp184126', 'LIUPENG.0@outlook.com', NOW());
+
+
+

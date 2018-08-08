@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript获取表单信息</title>
+</head>
+<body>
+
+
+<form name="myForm" action="ttttgetInformation.php" onsubmit="return validataform()" method="post">
+    name:<input type="text" name="fname">
+    <input type="submit" value="fsubmit">
+</form>
+
+<script>
+    function validataform() {
+        var lp_form_information = document.forms["myForm"]["fname"].value;
+        if(lp_form_information == null || lp_form_information == "") {
+            alert("需要输入名字！");
+            return false;
+        }
+    }
+</script>
+
+</body>
+</html>
